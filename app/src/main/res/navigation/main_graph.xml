@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/subscriberListFragment">
+
+    <fragment
+        android:id="@+id/subscriberListFragment"
+        android:name="br.com.brunoccbertolini.mysubscribers.subscriberlist.SubscriberListFragment"
+        android:label="SubscriberListFragment" />
+
+    <fragment
+        android:id="@+id/subscriberFragment"
+        android:name="br.com.brunoccbertolini.mysubscribers.ui.subscriber.SubscriberFragment"
+        android:label="@string/subscriber_title"
+        tools:layout="@layout/subscriber_fragment" />
+
+</navigation>
